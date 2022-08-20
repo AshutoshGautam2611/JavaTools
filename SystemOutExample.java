@@ -16,7 +16,7 @@ class CustomOutput {
 }
 
 class CustomSystem {
-    public static CustomOutput out = new CustomOutput();
+    final public static CustomOutput out = new CustomOutput();
 }
 
 class CustomMain {
